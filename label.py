@@ -1,7 +1,7 @@
 import tensorflow as tf
 import os
 import sys
-
+file = tf.io.gfile.GFile('path/to/file', 'r')
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 input_layer = 'DecodeJpeg/contents:0'
